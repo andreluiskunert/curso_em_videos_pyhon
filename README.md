@@ -1,72 +1,73 @@
-# curso_em_videos_pyhon
-Trabalho prático da disciplina DGT2817 com microatividades em Python usando estruturas condicionais, laços e funções. Inclui uma calculadora refatorada com funções. Projeto organizado, testado e documentado conforme as orientações da disciplina.
+# 📚 Curso em Vídeo – Python 3 (Mundo 1, 2 e 3)
 
-
----
-
-## 🧪 Microatividades
-
-### 🔹 `estruturas_condicao1.py` – Condicional `if` e `else`
-Exibe uma mensagem diferente dependendo da temperatura.
-
-### 🔹 `estruturas_condicao2.py` – Condicional `elif`
-Classifica o nível de experiência com base no tempo informado.
-
-### 🔹 `estruturas_repeticao1.py` – Laço `while`
-Solicita números até o usuário digitar 0.
-
-### 🔹 `estruturas_repeticao2.py` – Laço `for`
-Percorre um texto e uma faixa de números exibindo os itens.
-
-### 🔹 `funcoes1.py` – Função sem parâmetros
-Imprime uma variável fixa dentro de uma função.
-
-### 🔹 `funcoes2.py` – Função com parâmetro
-Valida o tipo de usuário (admin ou comum) e mostra mensagens.
+Aprendizado completo de **Python 3** com o professor **Gustavo Guanabara** no [Curso em Vídeo](https://www.cursoemvideo.com/), totalizando **120 horas de conteúdo** dividido em três módulos.  
+Ideal para iniciantes que desejam dominar a linguagem de programação Python, desde conceitos básicos até tópicos mais avançados.
 
 ---
 
-## 🧮 Refatoração – `calculadora_v2.py`
-
-Calculadora com funções para cada operação:
-- `adicao(a, b)`
-- `subtracao(a, b)`
-- `multiplicacao(a, b)`
-- `divisao(a, b)`
-
-A função `calculadora(a, b, operacao)` coordena o fluxo, e o laço `while` permite múltiplas operações até o usuário desejar sair.
-
-Inclui:
-- Tratamento de exceções com `try/except`
-- Validação de divisão por zero
-- Operações com símbolos e nomes ("+", "adicao", etc.)
+## 🎯 Objetivos do Curso
+- Introduzir a programação com Python de forma prática e didática.
+- Ensinar desde lógica de programação até estruturas avançadas.
+- Preparar para desafios reais e desenvolvimento de projetos.
 
 ---
 
-## 📝 Documentação
+## 📂 Estrutura dos Módulos
 
-- Este README serve como base da documentação.
-- Um PDF com esse conteúdo pode ser gerado para entrega formal via plataforma.
-- Testes realizados no **Visual Studio Code** com prints e entradas simuladas.
-
----
-
-## ☁️ Entrega via GitHub
-
-1. Criado repositório `trabalho-pratico-dgt2817`.
-2. Todos os arquivos `.py`, `README.md` e o PDF da documentação foram adicionados.
-3. Testes realizados localmente com sucesso.
+| Módulo | Nome do Curso | Carga Horária | Link |
+|--------|--------------|--------------|------|
+| 🐍 **Mundo 1** | Python 3 – Mundo 1 | 40 horas | [Acessar Curso](https://www.cursoemvideo.com/curso/python-3-mundo-1/) |
+| 🔄 **Mundo 2** | Python 3 – Mundo 2 | 40 horas | [Acessar Curso](https://www.cursoemvideo.com/curso/python-3-mundo-2/) |
+| 🚀 **Mundo 3** | Python 3 – Mundo 3 | 40 horas | [Acessar Curso](https://www.cursoemvideo.com/curso/python-3-mundo-3/) |
 
 ---
 
-## 💡 Dicas Finais
+## 📌 Conteúdo Abordado
 
-- Testar cada parte isoladamente.
-- Usar `print()` para entender o comportamento do código.
-- Em caso de dúvidas, consultar a SAVA ou fórum da disciplina.
-- Organização e clareza na entrega são parte da avaliação.
+### 🐍 Mundo 1 – Fundamentos
+- Instalação e configuração do Python.
+- Tipos de dados e variáveis.
+- Operadores aritméticos e lógicos.
+- Estruturas condicionais (`if`, `else`, `elif`).
+- Primeiros exercícios práticos.
+
+### 🔄 Mundo 2 – Estruturas de Repetição
+- Laços de repetição (`for`, `while`).
+- Interrupção de laços (`break`, `continue`).
+- Estruturas de controle aninhadas.
+- Exercícios e desafios práticos.
+
+### 🚀 Mundo 3 – Estruturas Compostas
+- Listas, tuplas e dicionários.
+- Funções e modularização.
+- Tratamento de erros.
+- Introdução à Programação Orientada a Objetos (POO).
+- Projetos e exercícios finais.
 
 ---
 
-**🗓️ Não deixar para última hora!**  
-Este trabalho vale **100% da nota final da disciplina**.
+## 🛠 Tecnologias Utilizadas
+- **Linguagem:** Python 3.x  
+- **Editor recomendado:** VS Code, PyCharm ou IDLE  
+- **Bibliotecas auxiliares:** Nenhuma obrigatória (uso básico da linguagem)
+
+---
+
+## 🎓 Certificação
+Cada módulo oferece **certificado de conclusão** mediante a aprovação nos testes finais.
+
+---
+
+## 📌 Observações
+> Os cursos são **gratuitos** e abertos para qualquer pessoa interessada em aprender programação em Python.
+
+---
+
+## 📷 Prévia dos Cursos
+![Python Curso em Vídeo](https://www.cursoemvideo.com/wp-content/uploads/2020/03/python-cursoemvideo.jpg)
+
+---
+
+💡 **Dica:** Recomenda-se acompanhar os cursos na ordem: **Mundo 1 → Mundo 2 → Mundo 3** para melhor aproveitamento.
+
+---
