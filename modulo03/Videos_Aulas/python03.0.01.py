@@ -24,13 +24,6 @@ print(lanche)
 #     lanche[1] = 'Café'
 # TypeError: 'tuple' object does not support item assignment
 print(lanche[1])
-print('-=-=-=-'*20)
-lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim', 'batata frita')
-for cont in range(0, len(lanche)):
-#   print(lanche[cont])
-  print(f'Vou comer {comida}')
-print('comi demais')
-print('--=--'*20)
 print(len(lanche))
 print(lanche)
 print('-x-x-'*20)
