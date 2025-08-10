@@ -18,6 +18,24 @@ while True:
 print(f'Você digitou o número {numeros[n]}.')
 
 print('--=--'*20)
+print('ø Versão Guanabara:')
+
+cont = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis',
+        'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze',
+        'quatorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito',
+        'dezenove', 'vinte')
+
+while True:
+    numero = int(input('Informe um número entre 0 e 20: '))
+    if 0 <= numero <= 20:
+        break
+    print('Tente novamente.', end=' ')
+
+print(f'Você digitou o número {cont[numero]}')
+
+print('-x-x-' * 20)
+print('The End')
+
 
 print('-x-x-'*20)
 
