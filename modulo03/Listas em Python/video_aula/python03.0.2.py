@@ -87,24 +87,31 @@ Permitem armazenar, acessar, modificar, adicionar e remover elementos de forma f
 """)
 print('-x-x-'*20)
 print('Versão Guanabarra: ')
-
+print("Só teoria ")
+print('-$-'*15)
+print('--=--'*15)
+teste = list()
+teste.append('Andre_Luis')
+teste.append(43)
+galera = list()
+galera.append(teste)
+teste[0] = 'Juan'
+teste[1] = 25
+print(teste)
+print(galera)
+print('-#-'*15)
+galera = [['Ana', 19], ['Paula', 18], ['Aline', 25], ['Cersar', 35]]
+for p in galera:
+    print(f'{p[0]} tem {p[1]} anos de idade:')
+print(galera[2] [1])
+print(galera)
 print('-#-'*15)
 galera = list()
 dado = list()
-totMaior = totMenor = 0
-
 for c in range(0, 5):
     dado.append(str(input('Nome:')))
-    dado.append(int(input('Idade:')))
+    dado.append(str(input('Idade:')))
     galera.append(dado[:])
     dado.clear
-for p in galera:
-    if p[1] >= 21:
-        print(f'{p[0]} é maior de idade: ')
-        totMaior += 1
-    else:
-        print(f'{p[0]} é menor de idade:')
-        totMenor += 1 
-print(f'Temos {totMaior} maiores e {totMenor} menores de idade')
 print('==>=='*20)
 print('The End')
