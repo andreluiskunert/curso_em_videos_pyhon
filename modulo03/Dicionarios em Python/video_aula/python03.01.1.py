@@ -82,5 +82,30 @@ Dicionários organizam dados por chaves nomeadas (como se fossem etiquetas).
 print('-x-x-'*20)
 print('Versão Guanabarra: ')
 print('Bora lá pratica...')
+brasil= []
+estado1 = {'uf':'Parana', 'sigla': 'PR'}
+estado2 = {'uf': 'Santa Catarina', 'sigla': 'SC'}
+estado3 = {'uf':'Rio Grande do Sul', 'sigla': 'RS'}
+brasil.append(estado1)
+brasil.append(estado2)
+brasil.append(estado3)
+print(estado1, estado2, estado3)
+print(brasil[0]['sigla'])
+print(brasil[1]['sigla'])
+print(brasil[2]['sigla'])
+print(brasil)
+#---
+print('#--#--'*25)
+estado = dict()
+brasil= list()
+for c in range(0, 3):
+    estado['uf'] = str(input('Unidade Federativa: '))
+    estado['sigla'] = str(input('Sigla do Estado:'))
+    brasil.append(estado.copy())
+for e in brasil:
+    for v in e.values():
+      print(v, end=' ')
+print()
+print(brasil)
 print('==>=='*20)
 print('The End')
