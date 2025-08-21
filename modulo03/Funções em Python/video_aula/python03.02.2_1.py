@@ -1,10 +1,9 @@
-print('Aula 20 – Funções (Parte 2)_1ªparte')
+print('Aula 20 – Funções (Parte 2)_2ªparte')
 print("""
 Nessa aula, vamos continuar nossos estudos de funções em Python, aprendendo mais sobre Interactive Help em Python, o uso de docstrings para documentar nossas funções, 
       argumentos opcionais para dar mais dinamismo em funções Python, escopo de variáveis e retorno de resultados.
 """)
 print('=====Exercicios====='*8)
-print(help)
 print("""
 Funções em Python – Parte 2
 
@@ -25,16 +24,38 @@ Por fim, as funções podem devolver resultados através da instrução return. 
 
 Em resumo, nesta aula aprendemos a usar o help interativo, a escrever docstrings para documentar funções, a trabalhar com argumentos opcionais, a entender melhor o escopo das variáveis e a utilizar o retorno de resultados com return. Esses conceitos são fundamentais para escrever códigos mais claros, organizados e eficientes em Python.
 """)
-print(input.__doc__)
-def contador(i, f,p):
-    """""
-    TO.....
-    """
-    c = i
-    while c <= f:
-        print(f'{c}',end='')
-        c += p
-    print('fim')
-help(contador) 
+def funcao():
+    n1 = 4
+    print(f'nº1 de dentro é {n1}')
+n1 = 2
+funcao()
+print(f'N1 global vale {n1}')
+print('?-Exemplo.:-?'*8)
+def somar(a=0, b=0, c=0):
+    s = a + b + c
+    print(f'A soma é {s}.')
+somar(3, 2, 5)
+somar(2 ,2)
+somar(4)
+print('?-Exemplo.:-?'*8)
+def somar(a=0, b=0, c=0):
+    s = a + b + c
+    return s
+r1 = somar(3, 2, 5)
+r2 = somar(2 ,2)
+r3 = somar(4)
+print(f'Osresultados são {r1}, {r2} e {r3}')
+print('?-Exemplo.:-?'*8)
+def par(n=0):
+    if n % 2 ==0:
+        return True
+    else:
+        return False
+num = int(input('Informe um número: '))
+if par(num):
+    print(f'é Par {num}')
+else:
+    print(f'Não é Par{num}')
+
 
 print('The End')
