@@ -1,4 +1,4 @@
-print('Ex.:08 – Função para Fatorial')
+print('Ex.:0 – Função para Fatorial')
 print("""
       Crie um programa que tenha uma função fatorial() que receba dois parâmetros: 
       o primeiro que indique o número a calcular e outro chamado show, 
