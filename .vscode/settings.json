@@ -4,6 +4,11 @@
             "path": "modulo03/Modularização em Pyhton",
             "envManager": "ms-python.python:venv",
             "packageManager": "ms-python.python:pip"
+        },
+        {
+            "path": "modulo03/Modularização em Pyhton/exercicios/python03.3.1.py",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
         }
     ]
 }
