@@ -18,11 +18,10 @@ def cabecalho(txt):
         print(txt.center(42))
         print(linha())
 def menu(lista):
-        cabecalho('MEU PRINCIPAL')
-        C = 1
-        for item in lista:
-                print(f'\033[33m{c}\033[m- \033[34m{item}\033[m')
-                c += 1
-        print(linha())
-        opc = leiaInt('\033[32mSua opção: \033[m')
-        return opc
+    cabecalho('MEU PRINCIPAL')
+    for i, item in enumerate(lista, start=1):
+        print(f'\033[33m{i}\033[m- \033[34m{item}\033[m')
+    print(linha())
+    opc = leiaInt('\033[32mSua opção: \033[m')
+    return opc
+
