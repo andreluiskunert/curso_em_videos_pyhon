@@ -1,29 +1,42 @@
-from lib.interface import *
+from lib.interface import cabecalho
 
 def arquivoExiste(nome):
     try:
-        a = open(nome, 'rt')
-        a.close()
+        with open(nome, 'rt'):
+            pass
     except FileNotFoundError:
         return False
     else:
         return True
-def  criarArquivo(nome):
+
+def criarArquivo(nome):
     try:
-        a = open('nome', 'wt+')
-        a.close()
+        with open(nome, 'wt+'):
+            pass
     except:
-        print('Houver um ERRO na criação do arquivo; ')
+        print('Houve um ERRO na criação do arquivo.')
     else:
-        print(f'Arquivo {nome} criado com sucesso !!!')
-def  lerArquivo(nome):
+        print(f'Arquivo {nome} criado com sucesso!')
+
+def lerArquivo(nome):
     try:
-        a = open(nome, 'rt')
+        with open(nome, 'rt') as a:
+            cabecalho('Pessoas Cadastradas')
+            for linha in a:
+                dado = linha.split(';')
+                dado[1] = dado[1].replace('\n', '')
+                print(f'{dado[0]} {dado[1]}')
     except:
         print('Erro ao ler arquivo')
-    else:
-        cabecalho('Pessoas Cadastradas')
 
-
-
-
+def cadastrar(arq, nome='desconhecido', idade=0):
+    try:
+        with open(arq, 'at') as a:
+            try:
+                a.write(f'{nome};{idade}\n')
+            except:
+                print('Houve um ERRO na hora de escrever os dados.')
+            else:
+                print(f'Novo registro de {nome} adicionado.')
+    except:
+        print('Houve um ERRO na abertura do arquivo.')
